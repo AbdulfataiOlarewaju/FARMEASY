@@ -597,6 +597,7 @@ footer {
 .social-links {
   display: flex;
   gap: 15px;
+  margin-bottom: 20px;
 }
 .social-links a{
   width:24px; height:24px; background-color: white; border-radius: 100%; padding: 2px;
@@ -607,7 +608,7 @@ footer {
   text-align: center;
   padding-top: 20px;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 /* ---------------- About Us ---------------- */
