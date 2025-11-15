@@ -26,8 +26,15 @@
 // ---------------- HAMBURGER MENU ----------------
 const hamburgerIcon = document.getElementById("hamburger");
 const dropDown = document.getElementById("dropDown");
+const crossIcon = document.getElementById("cross");
 
 hamburgerIcon.addEventListener("click", () => {
     dropDown.classList.toggle("open");
+    hamburgerIcon.style.display = "none";
+    crossIcon.style.display = "block";
 });
-
+crossIcon.addEventListener('click', () => {
+    dropDown.classList.toggle("open");  
+    crossIcon.style.display = "none";
+    hamburgerIcon.style.display = "block";
+});
